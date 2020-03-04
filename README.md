@@ -1,7 +1,7 @@
-## Arduino
-
+# Arduino
+Arduino exercises for classes at the University of Science and Technology
 ___
-# Exercises
+## Exercises
 - 2.1  
   - Green button pressed => couter incrementation
   - Red button pressed => couter decrementation
@@ -14,3 +14,7 @@ ___
     - LED OFF 
     - LED BLINK <time_ms> – blink LED diode with given frequency
     - LED BLINK – blink LED diode with default frequency
+___
+## Contact
+Created by [@Ukasz09](https://github.com/Ukasz09) <br/>
+gajerski.lukasz@gmail.com - feel free to contact me!
