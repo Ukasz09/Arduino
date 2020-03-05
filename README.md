@@ -1,7 +1,7 @@
-# 🤖 Arduino  [![License](https://img.shields.io/badge/licence-MIT-blue)](https://choosealicense.com/licenses/mit/) [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)](https://github.com/Ukasz09/Arduino) [![Status](https://img.shields.io/badge/status-work in progress-yellow)](https://github.com/Ukasz09/Arduino)
+# 🤖 Arduino  [![License](https://img.shields.io/badge/licence-MIT-blue)](https://choosealicense.com/licenses/mit/) [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)](https://github.com/Ukasz09/Arduino) [![Status](https://img.shields.io/badge/status-work in progress-yellow)](https://github.com/Ukasz09/Arduino)]
 
 Various arduino exercises for classes at the University of Science and Technology 
-___
+
 ## Exercises
 - ✔️ 2.1  
   - Green button pressed => couter incrementation
@@ -22,4 +22,4 @@ ___
 ## 📫 Contact 
 Created by <br/>
 <a href="https://github.com/Ukasz09" target="_blank"><img src="https://avatars0.githubusercontent.com/u/44710226?s=460&v=4"  width="100px;"></a>
-gajerski.lukasz@gmail.com - feel free to contact me! ✊
+<br/> gajerski.lukasz@gmail.com - feel free to contact me! ✊
