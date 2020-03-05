@@ -9,6 +9,9 @@ ___
   - buttons vibration reduction
 - 2.2  
     - Show button pressed time in format H:MM:SS.z
+- 2.2_modification
+	- Show buttons (RED and GREEN) pressed time
+	  If during holding one button, we start hold other button, then in result will be print result as a sum of RED and GREEN button hold time
 - 2.3   (Communication with led diode from terminal UART)
     - LED ON 
     - LED OFF 
