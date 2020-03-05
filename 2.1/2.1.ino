@@ -4,7 +4,7 @@
 
 #define RED_BUTTON_PIN 2
 #define GREEN_BUTTON_PIN 4
-#define DELAY_FOR_BTN_BOUNCING 20
+#define DELAY_FOR_BTN_BOUNCING 50
 #define LED_RED 6
 #define LED_GREEN 5
 #define LED_BLUE 3
@@ -28,14 +28,20 @@ void setup() {
 void loop() {
   if (needToBlinkLed())
     blinkLed(LED_RED, BLINK_DELAY);
-  else if (buttonIsPressed(RED_BUTTON_PIN, lastRedBtnState))
-    if (buttonIsPressed(GREEN_BUTTON_PIN, lastGreenBtnState))
+  else if (buttonIsPressed(RED_BUTTON_PIN, lastRedBtnState)) {
+    doRedButtonPressedAction();
+    if (buttonIsPressed(GREEN_BUTTON_PIN, lastGreenBtnState)) {
+      doGreenButtonPressedAction();
       doBothButtonsPressedAction();
-    else doRedButtonPressedAction();
-  else if (buttonIsPressed(GREEN_BUTTON_PIN, lastGreenBtnState))
-    if (buttonIsPressed(RED_BUTTON_PIN, lastRedBtnState))
+    }
+  }
+  else if (buttonIsPressed(GREEN_BUTTON_PIN, lastGreenBtnState)) {
+    doGreenButtonPressedAction();
+    if (buttonIsPressed(RED_BUTTON_PIN, lastRedBtnState)) {
+      doRedButtonPressedAction();
       doBothButtonsPressedAction();
-    else doGreenButtonPressedAction();
+    }
+  }
 }
 
 bool needToBlinkLed() {
@@ -65,10 +71,11 @@ bool buttonIsPressed(int buttonPin, bool & lastBtnState) {
 }
 
 void doRedButtonPressedAction() {
-  count--;
-  printCounterStatus();
+  if (count > 0) {
+    count--;
+    printCounterStatus();
+  }
 }
-
 void doGreenButtonPressedAction() {
   count++;
   printCounterStatus();
