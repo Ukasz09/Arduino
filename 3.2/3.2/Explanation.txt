@@ -1,0 +1,8 @@
+Problem:
+Program mierzy napięcie jakie podaje potencjometr na wejściu. Wynik pomiaru jest przedstawiony na wyświetlaczu LCD [V] oraz wartości ADC z portu wejścia. Oprócz powyzszych funkcjonalnosci wyświetla rowniez wykres mierzonego napięcia. Drugi przebieg pokazuje stan włączenia podświetlenia wyświetlacza.
+
+Opis dzialania:
+Analogiczny jak w zad 3.1 rozbudowany o wypisywanie akutalnego napiecia na Serialy skad wyniki sa pobierane przez plotter i przedstawiane na wykresie
+
+Opis kodu:
+W fomrmie komentarzy w kodzie
