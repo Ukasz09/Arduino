@@ -1,0 +1,8 @@
+Problem:
+Program mierzy napięcie jakie podaje potencjometr na wejściu. Wynik pomiaru jest przedstawiony na wyświetlaczu LCD [V] oraz wartości ADC z portu wejścia
+
+Opis dzialania:
+Program sprawdza czy zostal nacisniety czerwony przycisk. Jesli tak to wlacza lub wylacza podswietlenie ekranu. Bez wzgledu na podswietlnie za kazdym razem najpierw czysci konsole, nastepnie ustawia kursor na poczatku pierwszej linii wyswietlacza lcd i wypisuje nazwe prezentowanej funkcjonalnosci, przechodzi do nastepnej liniii, odczytuje stan adc z potencjometru, przelicza wartosc na wolty i wyswietla wynik (zarowno w woltach, jak i wartosci ADC), korzystajac z formatowania sprintf (dla liczb zmienno przecinkowych z dokladnoscia do 2 miejsc, natomiast dla calkowitych jako dlugosc 3 cyfr, by zachowac wymaganie formatowania wyswietlenia wartosci ADC do prawej)
+
+Opis kodu:
+W fomrmie komentarzy w kodzie
