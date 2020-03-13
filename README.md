@@ -18,6 +18,13 @@ Various arduino exercises for classes at the University of Science and Technolog
     - LED OFF 
     - LED BLINK <time_ms> – blink LED diode with given frequency
     - LED BLINK – blink LED diode with default frequency
+- ✔️ 3.1   (Display actual voltage and ADC value from potentiometer)
+- ✔️ 3.2   (Display actual voltage and ADC value from potentiometer with graphs on plotter)
+- ✔️ 3.3   
+    - Display user's text from UART on LCD 
+    - Microcontroller remember last 10 user's inputs
+    - "Scrolling" text on LCD by using buttons
+    - If text size is bigger then maximum characters quantity, then text is displayed on screen with moving animation
 ___
 ## 📫 Contact 
 Created by <br/>
