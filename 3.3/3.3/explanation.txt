@@ -1,0 +1,8 @@
+Problem:
+Logger wyświetlający pojedyncze linie tekstu wpisywane poprzez terminal UART. Mikrokontroler zapamiętuje przynajmniej 10 linii tekstu i wyświetla je na wyświetlaczu LCD. Nadejście nowej linii przesuwa widoczny obszar wyświetlacza, aby linia była widoczna. Przyciski uzywane do przesuwania widocznego obszaru wyświetlacza w taki sposób, aby można było zobaczyć pełną historię zdarzeń. Jeśli linia jest dłuższa od rozmiaru wyświetlacza to natepuje automatyczne przesuwanie się tekstu do jego końca i powrót do początek, tak aby można było odczytać całą linię.
+
+Opis dzialania:
+odczyt z uart tekstu podanego przez uzytkownika, sprwadzenie czy nastapilo wykonanie akcji na ktoryms z przycikow. Jesli nie to nastepuje  wyswietlenie lini aktualnej lini tekstu (zgodnej z przesunieciem wykonanym poprzez przyciski). Akcja zwiazana z nacisnieciem przycisku polega na sprawdzeniu ustawieniu znacznika aktualnie prezentowanej linii na ta zgodna z wybrana przyciskami linia. Przy wyswietlaniu tekstu na ekran sprawdzane jest czy nie jest on dluzszy od max dlugosci. Jesli tak jest to jest on z kazdym krokiem petli loop przesuwany w lewo az to momentu dojscia do jego konca
+
+Opis kodu:
+W fomrmie komentarzy w kodzie
